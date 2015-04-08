@@ -1148,6 +1148,59 @@
 }
 
 /*********************************************************************************/
+/* IntroAlumni                                                                   */
+/*********************************************************************************/
+
+#introAlumni {
+    background: url('../images/alumni.jpg');
+    background-size: 100%;
+    background-attachment: fixed, fixed;
+    background-position: top left, center center;
+}
+
+/*********************************************************************************/
+/* PikeAlumni                                                                    */
+/*********************************************************************************/
+
+#pikeAlumni {
+    background: url('../images/AlumniFiretruck.jpg');
+    background-size: 100%;
+    background-attachment: fixed, fixed;
+    background-position: top left, center center;
+}
+
+/*********************************************************************************/
+/* ADAlumni                                                                      */
+/*********************************************************************************/
+
+#adAlumni {
+    background: url('../images/Leaders.jpg'); /* TODO: Get a good picture for this */
+    background-size: 100%;
+    background-attachment: fixed, fixed;
+    background-position: top left, center center;
+}
+/*********************************************************************************/
+/* Alumni Mailing List                                                           */
+/*********************************************************************************/
+
+#mailingList {
+    background: url('../images/Athletes.jpg'); /* TODO: Get a good picture for this */
+    background-size: 100%;
+    background-attachment: fixed, fixed;
+    background-position: top left, center center;
+}
+
+/*********************************************************************************/
+/* MailChimp                                                                     */
+/*********************************************************************************/
+
+#mc_embed_signup {
+    background:#fff;
+    clear:left;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*********************************************************************************/
 /* Footer                                                                        */
 /*********************************************************************************/
 	
