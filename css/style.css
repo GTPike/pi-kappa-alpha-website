@@ -725,6 +725,37 @@
 		}
 
 /*********************************************************************************/
+/* Icon3                                                                         */
+/*********************************************************************************/
+
+    .icon3 { /* TODO: figure out why this is acting weird */
+        text-decoration: none;
+        color: #910b2c;
+        font-size: 300%;
+    }
+
+    .icon3:hover {
+        color: #E7AD36;
+    }
+
+    .icon3:before {
+        color: black;
+        display: inline-block;
+        font-family: FontAwesome;
+        font-size: 1.25em;
+        text-decoration: none;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 1;
+        -webkit-font-smoothing:antialiased;
+        -moz-osx-font-smoothing:grayscale;
+    }
+
+    .icon3 > .label {
+        display: none;
+    }
+
+/*********************************************************************************/
 /* Header                                                                        */
 /*********************************************************************************/
 
@@ -1185,6 +1216,17 @@
 
 #mailingList {
     background: url('../images/HomecomingWreck78.jpg'); /* TODO: Get a good picture for this */
+    background-size: 100%;
+    background-attachment: fixed, fixed;
+    background-position: top left, center center;
+}
+
+/*********************************************************************************/
+/* ADLinkedIn                                                                    */
+/*********************************************************************************/
+
+#adLinkedIn {
+    background: url('../images/HomecomingPomp78.jpg'); /* TODO: Get a good picture for this */
     background-size: 100%;
     background-attachment: fixed, fixed;
     background-position: top left, center center;
